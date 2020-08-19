@@ -18,7 +18,7 @@ Astronomical-Images-Restoration
 |
 |----real_images # original images 
 |	|
-|	|----train # priginal training images
+|	|----train # original training images
 |	|
 |	|----test # only 1 test image
 |
