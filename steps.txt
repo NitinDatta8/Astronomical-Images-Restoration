@@ -1,0 +1,30 @@
+File Structure:
+TF_pix2pix
+|
+|----real_images
+|	|
+|	|----train
+|	|
+|	|----test (only 1 test image)
+|
+|----conv_images
+|	|
+|	|----train
+|	|
+|	|----test (only 1 test image)
+|
+|----pix2pix.py
+|
+|----preprocessing.py
+|
+|----tf.yml
+
+
+STEPS: 
+1. We will create an environment to replicate the desired effects.
+2. Place the file "tf.yml" in a directory.
+3. In anaconda prompt go to the directory and run this command "conda env create -v -f tf.yml"
+4. After the environment is created run the command "conda activate tf"
+5. Run this command "pip install opencv-python" after step 4
+6. now navigate inside TF_pix2pix and run preprocessing to generate the required input for the model
+7. run pix2pix.py for training the model/
