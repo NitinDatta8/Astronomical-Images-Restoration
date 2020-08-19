@@ -1,5 +1,6 @@
 # Astronomical-Images-Restoration
-This project is about generating nearly original images using convoluted images by using Pix-2-Pix GAN 
+This project is about generating nearly original images using convoluted images by using Pix-2-Pix GAN.
+
 As the dataset is private I cannot share the images here. 
 
 # Steps to run the project
